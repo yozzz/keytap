@@ -1,0 +1,59 @@
+// Place all the styles related to the keyboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto",
+  sans-serif;
+}
+
+.main {
+  padding: 75px;
+}
+
+.verified {
+  background-color: lightgreen;
+}
+.error {
+  background-color: lightcoral;
+}
+
+.text-block {
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  color: dimgray;
+
+  .input-form {
+    padding: 20px;
+    height: 40px;
+  }
+
+  .input-text {
+    border: none;
+    border-bottom-style: dotted;
+    display: inline-block;
+    font-family: DejaVu Sans Mono, Menlo, Lucida Console, monospace;
+    font-size: 18px;
+    height: 20px;
+    outline-width: 0;
+    vertical-align: middle;
+    width: 673px;
+  }
+
+  #text {
+    display: inline-block;
+    font-family: DejaVu Sans Mono, Menlo, Lucida Console, monospace;
+    font-size: 18px;
+    line-height: normal;
+    text-align: left;
+    vertical-align: middle;
+    width: 673px;
+  }
+
+  #hidden-text {
+    display: none;
+
+  }
+
+}
